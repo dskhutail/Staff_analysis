@@ -36,7 +36,7 @@ from (select distinct department
 from staff
 order by department) t;  
 
--- What is the highrst and the lowest salary of employee?
+-- What is the highest and the lowest salary of employee?
 
 select max(salary) as max_salary, min(salary) as min_salary
 from staff;
@@ -202,7 +202,7 @@ job_title like "S%"
 order by 1;
 
 /********* Reformatting Numerics Data *********/
--- TRUNC() Truncate values Note: trunc just truncate value, not rounding value.
+-- TRUNCATE() Truncate values Note: trunc just truncate value, not rounding value.
 -- CEIL
 -- FLOOR
 -- ROUND
